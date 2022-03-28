@@ -18,4 +18,4 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 - `AppleIntelLpssI2CController` will have timeout and connection issues without porperly patched `SSDT-GPIO.aml`
   - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
 - Using `USBInjectAll.kext` and `XhciPortLimit` patch may cause issues with `AppleIntelLpssI2CController`; Not enabled.
-- Used Dortainia Guide to configure and originally found SSDTs (from here)[https://dsdt-database.monster/surface-pro-4-core-i7-opencore/]
+- Used Dortainia Guide to configure and originally [found SSDTs here](https://dsdt-database.monster/surface-pro-4-core-i7-opencore/)
