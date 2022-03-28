@@ -10,3 +10,4 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 
 ## Hardware Specs
 - Intel Core i7-6650U (Skylake)
+- SMBIOS Definition set for **MacBookPro14,2** which closely matches the hardware of Surface Pro 4.
