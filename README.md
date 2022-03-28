@@ -10,4 +10,10 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 
 ## Hardware Specs
 - Intel Core i7-6650U (Skylake)
+- More to come
+
+## OpenCore Configuration Notes
 - SMBIOS Definition set for **MacBookPro14,2** which closely matches the hardware of Surface Pro 4.
+- `AppleIntelLpssI2CController` will have timeout and connection issues without porperly patched `SSDT-GPIO.aml`
+  - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
+- Using `USBInjectAll.kext` and `XhciPortLimit` patch in OC may cause other issues, not enabled (for install).
