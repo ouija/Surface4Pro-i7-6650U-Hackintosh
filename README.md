@@ -17,5 +17,5 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 - Using `HfsPlus.efi` instead of `OpenHfsPlus.efi`
 - `AppleIntelLpssI2CController` will have timeout and connection issues without porperly patched `SSDT-GPIO.aml`
   - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
-- Using `USBInjectAll.kext` and `XhciPortLimit` patch in OC may have caused issues with `AppleIntelLpssI2CController`; Not enabled.
-- Originally tracked down working SSDTs from https://dsdt-database.monster/surface-pro-4-core-i7-opencore/ and Dortainia Guide
+- Using `USBInjectAll.kext` and `XhciPortLimit` patch may cause issues with `AppleIntelLpssI2CController`; Not enabled.
+- Used Dortainia Guide to configure and originally found SSDTs (from here)[https://dsdt-database.monster/surface-pro-4-core-i7-opencore/]
