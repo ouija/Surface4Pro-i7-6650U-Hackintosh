@@ -10,6 +10,9 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 
 ## Hardware Specs
 - Intel Core i7-6650U (Skylake)
+- Intel Iris Graphics 540 Pro
+- Marvell AVASTAR Wireless AC Network Controller
+- Realtek HD Audio (10EC:0298)
 - More to come
 
 ## OpenCore Configuration Notes
@@ -19,3 +22,4 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
   - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
 - Using `USBInjectAll.kext` and `XhciPortLimit` patch may cause issues with `AppleIntelLpssI2CController`; Not enabled.
 - Used [Dortainia Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html) to configure and originally found SSDTs [here](https://dsdt-database.monster/surface-pro-4-core-i7-opencore/)
+- Installation completed but system currently crashing after 'welcome' screen in macOS; Likely due to invalid gfx settings.
