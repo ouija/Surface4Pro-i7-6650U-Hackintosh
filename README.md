@@ -23,3 +23,4 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 - Using `USBInjectAll.kext` and `XhciPortLimit` patch may cause issues with `AppleIntelLpssI2CController`; Not enabled.
 - Used [Dortainia Guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html) to configure and originally found SSDTs [here](https://dsdt-database.monster/surface-pro-4-core-i7-opencore/)
 - Installation completed but system currently crashing after 'welcome' screen in macOS; Likely due to invalid gfx settings.
+  - Remove `device-id` and `AAPL,ig-platform-id` allowed the initial configuration to complete, but only 19mb being reported for Iris 540 and no accelleration.
