@@ -16,7 +16,7 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 - More to come
 
 ## OpenCore Configuration Notes
-- SMBIOS Definition set for **MacBookPro13,3** which closely matches the hardware of Surface Pro 4.
+- SMBIOS Definition **MacBookPro13,3**  closely matches the hardware of Surface Pro 4
 - Using `HfsPlus.efi` instead of `OpenHfsPlus.efi`
 - `AppleIntelLpssI2CController` will have timeout and connection issues without porperly patched `SSDT-GPIO.aml`
   - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
