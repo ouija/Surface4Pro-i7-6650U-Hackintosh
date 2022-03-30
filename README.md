@@ -11,7 +11,7 @@ Note USB Hub with Keyboard and Mouse needed to complete the installation.
 ## Hardware Specs
 - Intel Core i7-6650U (Skylake)
 - Intel Iris Graphics 540 Pro
-- Marvell AVASTAR Wireless AC Network Controller
+- Marvell AVASTAR Wireless AC Network Controller [Unsupported]
 - Realtek HD Audio (10EC:0298)
 - More to come
 
