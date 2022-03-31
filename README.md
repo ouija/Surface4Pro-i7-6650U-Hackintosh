@@ -17,7 +17,7 @@ Note USB Hub with External USB Keyboard and Mouse needed to complete the install
 - Surface Pro 4 Type Cover (QC7-00001)
 
 ## OpenCore Configuration Notes
-- SMBIOS Definition **MacBookPro13,3**  closely matches the hardware of Surface Pro 4
+- OpenCore using SMBIOS Definition **MacBookPro14,2** 
 - Using `HfsPlus.efi` instead of `OpenHfsPlus.efi`
 - `AppleIntelLpssI2CController` will have timeout and connection issues without porperly patched `SSDT-GPIO.aml`
   - Alternatively, patched version of `SSDT-XOSI.aml` may be used instead of `SSDT-GPIO.aml`
