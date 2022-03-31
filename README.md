@@ -1,5 +1,5 @@
 # Surface4Pro-i7-6650U-Hackintosh
-**Hackintosh Installation Guide for the Surface 4 Pro i7-6650U**
+**Hackintosh Installation Notes for the Surface 4 Pro i7-6650U**
 
 Please consider [donating](https://paypal.me/djouija) to support this project. Thanks!
 
