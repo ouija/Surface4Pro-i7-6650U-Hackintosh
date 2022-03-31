@@ -30,4 +30,6 @@ Note USB Hub with External USB Keyboard and Mouse needed to complete the install
 
 
 ## Final Thoughts
-Not a huge fan of how Monterey is performing on this unit, given the issues with Intel Iris 540 Pro not rendering YouTube and constantly slowing to a crawl after a few minutes of use, and it sucks that the IPTS (Touchscreen) AND the Marvell WLAN are unsupported.   I managed to get the [D-Link DWA-181](https://www.bestbuy.ca/en-ca/product/d-link-ac1300-wi-fi-dual-band-usb-adapter-dwa-181/13579247) working with [this driver](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) but using the only available USB port on this device is also more of a dealbreaker with me in not even wanting to continue this project.
+Not a huge fan of how Monterey is performing on this unit, given the issues with Intel Iris 540 Pro not rendering YouTube and constantly slowing to a crawl after a few minutes of use, and it sucks that the IPTS (Touchscreen) AND the Marvell WLAN are unsupported.   I managed to get the [D-Link DWA-181](https://www.bestbuy.ca/en-ca/product/d-link-ac1300-wi-fi-dual-band-usb-adapter-dwa-181/13579247) working with [this driver](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) but using the only available USB port on this device is also more of a dealbreaker with me in not wanting to continue this project...  
+
+I'd rather use the partition space for [FydeOS](https://fydeos.io/download/device/surface-pro4) instead!
