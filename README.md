@@ -26,7 +26,7 @@ Note USB Hub with External USB Keyboard and Mouse needed to complete the install
 - Installation completed but system currently crashing after 'welcome' screen in macOS; Likely due to invalid gfx settings.
   - Remove `device-id` and `AAPL,ig-platform-id` allowed the initial configuration to complete, but only 19mb being reported for Iris 540 and no accelleration.
   - After installation, restored config and graphics accelleration working, but slowdown and performance issues.
-  - Enable secure boot: https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md
+  - Enable [secure boot](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md): Mount this image in Linux using the offset __(found using [parted](https://askubuntu.com/a/236284))__ via this command: `sudo mount -o loop,ro,offset=1048576 Super-UEFIinSecureBoot-Disk_minimal.img /path/to/mount/`
 
 
 ## Final Thoughts
