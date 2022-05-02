@@ -27,6 +27,7 @@ Note USB Hub with External USB Keyboard and Mouse needed to complete the install
   - Remove `device-id` and `AAPL,ig-platform-id` allowed the initial configuration to complete, but only 19mb being reported for Iris 540 and no accelleration.
   - After installation, restored config and graphics accelleration working, but slowdown and performance issues.
   - Enable [secure boot in Surface](https://github.com/badstorm/surface-pro-7-opencore/blob/master/SecureBoot.With.Grub.md) but note you need to mount this image in Linux using the offset _(found using [parted](https://askubuntu.com/a/236284))_ via this command: `sudo mount -o loop,ro,offset=1048576 Super-UEFIinSecureBoot-Disk_minimal.img /path/to/mount/` as it can't be extracted like described at that link.
+- Came across [this kext](https://github.com/Xiashangning/BigSurface) which may be of interest should IPTS support get enabled.
 
 
 ## Final Thoughts
